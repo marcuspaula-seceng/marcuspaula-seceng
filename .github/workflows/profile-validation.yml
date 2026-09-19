@@ -1,0 +1,47 @@
+name: profile-validation
+
+on:
+  pull_request:
+    branches: [main]
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out
+        uses: actions/checkout@v4
+
+      - name: Markdown structure
+        run: |
+          set -e
+          bad=0
+          for f in $(find . -name '*.md' -not -path './.git/*'); do
+            fences=$(grep -c '^\s*```' "$f" || true)
+            if [ $((fences % 2)) -ne 0 ]; then
+              echo "FAIL $f: unbalanced code fences"; bad=$((bad+1))
+            fi
+          done
+          echo "Checked Markdown structure; $bad failure(s)."
+          [ "$bad" -eq 0 ]
+
+      - name: No AI attribution in documentation
+        run: |
+          set -e
+          if grep -riE 'co-authored-by|anthropic|generated with' --include='*.md' . ; then
+            echo 'FAIL: attribution found in documentation'; exit 1
+          fi
+          echo 'No attribution lines in documentation.'
+
+      - name: No personal contact details
+        run: |
+          set -e
+          if grep -rE '[A-Za-z0-9._%+-]+@(me|gmail|outlook|hotmail)\.com' --include='*.md' . ; then
+            echo 'FAIL: personal email address found'; exit 1
+          fi
+          echo 'No personal email addresses.'

@@ -1,97 +1,84 @@
-# Marcus Paula
+# Marcus de Paula
 
-**Security & Infrastructure Engineer** — IAM · Endpoint Security · PowerShell Automation · Security Operations · Ireland
+**Security & Infrastructure Engineer**
+IAM · Endpoint Security · PowerShell Automation · Security Operations · Ireland
 
-Unrestricted right to work in Ireland. Available for Ireland-based and remote opportunities.
-
----
-
-## Profile
-
-I built my career from hands-on IT infrastructure and technical support into enterprise
-engineering across EMEA. My responsibilities progressively expanded into incident escalation,
-identity and access governance, endpoint security, audit support, operational controls and
-automation. I now apply that foundation to Security and Infrastructure Engineering through
-practical projects in PowerShell automation, detection engineering, DFIR and AI-assisted
-security operations.
+> Hi, I'm Marcus — I secure identities, endpoints and infrastructure.
 
 Extensive IT experience spanning technical support, infrastructure, enterprise operations,
-identity, endpoint security and automation.
+identity, endpoint security and automation, with hands-on development of security automation,
+IAM and incident-response capability.
 
-What I care about in practice is the failure that makes no noise: the test suite that stays
-green while the rule never fires, the job that reports zero results because it was read before
-it finished, the write that succeeds and quietly loses records. Most of what I build exists to
-turn a silent success into a loud failure.
+Irish and Italian citizen with unrestricted right to work in Ireland.
+Available for Ireland-based and remote opportunities.
+
+[LinkedIn](https://www.linkedin.com/in/marcuspaula/) · [GitHub](https://github.com/marcuspaula-seceng)
 
 ---
 
-## Core capabilities
+## What I work on
 
-| Area | Scope |
+| | |
 |---|---|
-| **Identity & access** | Joiner/mover/leaver automation, access review, privileged-account review, stale-account identification, group-membership analysis, least privilege |
-| **Endpoint & remote access** | Endpoint configuration and deployment, VPN and remote access troubleshooting, Windows, macOS and Linux server environments |
-| **Incident & escalation** | Triage, prioritisation, systems-level root-cause analysis, structured handover to specialist teams |
-| **Automation** | PowerShell with strict mode, parameter validation, `ShouldProcess` on destructive paths, Pester, GitHub Actions CI |
-| **Detection engineering** | Windows event analysis, detection logic, true/false-positive reasoning, schema validation |
-| **DFIR** | Investigation workflow, evidence handling, containment and remediation runbooks |
-| **AI-assisted operations** | Assisted generation paired with deterministic validation and human approval gates |
+| **Identity & access** | Joiner/mover/leaver automation, access review, privileged-account audit, group-membership change detection, least privilege |
+| **Endpoint & remote access** | Endpoint configuration and deployment, VPN and remote access troubleshooting, Windows, macOS and Linux server estates |
+| **Incident response** | Triage, systems-level root-cause analysis, evidence handling, containment, structured escalation |
+| **Automation** | PowerShell with strict mode, parameter validation, `ShouldProcess` on destructive paths, Pester, GitHub Actions |
+| **Detection engineering** | Windows event analysis, detection logic, true and false positive reasoning, schema validation |
 
 ---
 
-## Global and cross-regional experience
+## Featured projects
 
-**Ireland** — Enterprise IT operations inside a global technology organisation. EMEA incident
-escalation. Infrastructure and security collaboration. Identity, endpoint and access
-operations.
+**[Active Directory Security Automation](https://github.com/marcuspaula-seceng/active-directory-automation)**
+Identity lifecycle suite in PowerShell: joiner, mover and leaver flows, access review with
+stale-account flagging, privileged-account audit, password-policy audit and group-membership
+delta reporting. Directory logic is isolated so it can be tested deterministically with Pester 5,
+with CI running under read-only workflow permissions.
+*Laboratory build. Not executed against a production directory.*
 
-**Europe and EMEA** — Support across distributed environments, collaboration across time
-zones, remote troubleshooting, operational continuity, and communication with international
-technical teams.
+**[Windows Incident Triage](https://github.com/marcuspaula-seceng/dfir-playbook)**
+Incident-response playbook and live-triage tooling for Windows and Linux: collection ordered by
+volatility, chain-of-custody templates, containment and remediation runbooks, following PICERL.
+*Independent project using synthetic data and fictional scenarios.*
 
-**China and global teams** — Collaboration with China-based and global engineering teams.
-Cross-regional technical escalation. Validation of unfamiliar systems alongside global
-specialists. Translating local EMEA issues into actionable technical information.
+**[IAM Access Review Lab](https://github.com/marcuspaula-seceng/iam-zero-trust-architecture)**
+Access architecture and review tooling across PowerShell, Bash and Python: identity lifecycle,
+access governance, Zero Trust principles and operational controls.
+*Independent project. Not connected to a production identity provider.*
 
-**Brazil, Paraguay and Georgia** — Remote technical project development, cyber security
-learning and laboratories, PowerShell automation, portfolio engineering and AI-assisted
-workflows. Demonstrates adaptability across international and remote-working environments.
+**[Security Engineering Case Studies](https://github.com/marcuspaula-seceng/windows-detection-engineering-lab)**
+Detection rules authored from real Windows event data, with fixtures, a declared true and false
+positive matrix, and validation against an upstream JSON schema pinned by commit and hash.
+*Hands-on lab. Public-domain source data with recorded checksums.*
+
+The central hub is
+**[marcuspaula-security-portfolio](https://github.com/marcuspaula-seceng/marcuspaula-security-portfolio)**.
 
 ---
 
 ## Technical timeline
 
-**Technical foundation** — Windows infrastructure, endpoints, user support, connectivity and
-operational continuity.
+**Phase 1 — Security baseline**
+Windows infrastructure, endpoints, connectivity and account access, keeping a site running
+without in-house IT. Later, enterprise operations across EMEA: incidents, escalation and the
+documentation that makes an operation repeatable.
 
-**Enterprise engineering** — Global and EMEA operations, incidents, escalation, systems-level
-troubleshooting and documentation.
+**Phase 2 — Investigation**
+Becoming the escalation point for problems that had already failed elsewhere. Root-cause
+analysis across identity, network, endpoint and server layers, and identifying the process gaps
+that let an issue reach a user in the first place.
 
-**Security integration** — Identity and access governance, endpoint security, audit support
-and operational controls.
+**Phase 3 — Automation and validation**
+Rebuilding recurring work as PowerShell with tests and CI. Isolating dependencies so logic can
+be verified without touching a live directory. Treating a green test suite as a claim to be
+checked rather than a result to be trusted.
 
-**Automation** — PowerShell, repeatable processes, deterministic testing, CI and validation.
-
-**Detection and DFIR** — Windows telemetry, detection logic, investigation and response
-methodology.
-
-**Current engineering focus** — Security automation, IAM, endpoint security, DFIR and
-AI-assisted operations.
-
----
-
-## Selected projects
-
-> Repositories are private while a secret-hygiene gate is completed. Access on request.
-
-| Project | What it demonstrates |
-|---|---|
-| **`active-directory-automation`** | Identity lifecycle in PowerShell — joiner/mover/leaver, access review with stale-account flagging, privileged-account audit, group-membership delta reporting. Pester 5 and GitHub Actions CI under read-only workflow permissions. *Not executed against a production directory.* |
-| **`windows-detection-engineering-lab`** | Detection rules authored from real Windows event data, with declared true/false-positive matrices and validation against an upstream JSON schema pinned by commit and hash. |
-| **`iam-zero-trust-architecture`** | Access architecture, least privilege, identity lifecycle and operational controls. |
-| **`dfir-playbook`** | Incident triage, evidence handling, investigation workflow, containment, remediation and repeatable runbooks. |
-
-The central hub for all portfolio work is **`marcuspaula-security-portfolio`**.
+**Phase 4 — Outcome and lessons learned**
+A publication gate that caught nine of eleven scripts failing to parse after I had read them and
+judged them fine. A field truncation that kept an entire suite green while the rule never fired.
+A validator that was itself the defect. Each one became a standing rule, and most of the controls
+I build now exist to turn a silent success into a loud failure.
 
 ---
 
@@ -107,9 +94,10 @@ The central hub for all portfolio work is **`marcuspaula-security-portfolio`**.
 
 Nothing moves category to look stronger. Where something has not been proven, it says so.
 
----
+## Current focus
 
-## Contact
+Windows detection engineering, incident-response methodology, and extending the PowerShell
+automation suite with validation that fails loudly.
 
-- LinkedIn — https://www.linkedin.com/in/marcuspaula/
-- Dublin, Ireland
+Microsoft security tooling — Defender for Endpoint, KQL, Sentinel and Entra ID governance — is
+listed as **study**, not experience, and stays there until there is something to show.

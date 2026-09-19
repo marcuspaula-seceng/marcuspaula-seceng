@@ -77,8 +77,8 @@ My security work is separated clearly from employer experience.
 
 | Workstream | Status | Focus |
 |---|---|---|
-| **Active Directory security automation** | Hands-on lab | Joiner/mover/leaver logic, access review, privileged-account and password-policy auditing |
-| **Windows detection engineering** | Hands-on lab | Event-driven detection, fixtures, positive/negative testing and schema validation |
+| [**Active Directory security automation**](https://github.com/marcuspaula-seceng/active-directory-automation) | Hands-on lab | Joiner/mover/leaver logic, access review, privileged-account and password-policy auditing |
+| [**Windows detection engineering**](https://github.com/marcuspaula-seceng/windows-detection-engineering-lab) | Hands-on lab | Event-driven detection, fixtures, positive/negative testing and schema validation |
 | **Incident-response playbooks** | Independent project | Evidence collection, chain of custody, containment and remediation |
 | **IAM and Zero Trust architecture** | Independent project | Identity lifecycle, access governance, least privilege and operational controls |
 | **Cloud and platform security** | In progress | Secure infrastructure patterns, threat modelling and automated validation |

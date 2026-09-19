@@ -5,36 +5,68 @@ IAM · Endpoint Security · PowerShell Automation · Security Operations · Irel
 
 > Hi, I'm Marcus — I secure identities, endpoints and infrastructure.
 
-Extensive IT experience spanning technical support, infrastructure, enterprise operations,
-identity, endpoint security and automation, with hands-on development of security automation,
-IAM and incident-response capability.
+More than a decade of international IT and security experience, with hands-on development of
+security automation, IAM and incident-response capability.
 
-Irish and Italian citizen with unrestricted right to work in Ireland.
-Available for Ireland-based and remote opportunities.
+Unrestricted right to work in Ireland. Available for Ireland-based and remote opportunities.
 
 [LinkedIn](https://www.linkedin.com/in/marcuspaula/) · [GitHub](https://github.com/marcuspaula-seceng)
 
 ---
 
-## What I work on
+## Areas of work
 
 | | |
 |---|---|
-| **Identity & access** | Joiner/mover/leaver automation, access review, privileged-account audit, group-membership change detection, least privilege |
-| **Endpoint & remote access** | Endpoint configuration and deployment, VPN and remote access troubleshooting, Windows, macOS and Linux server estates |
-| **Incident response** | Triage, systems-level root-cause analysis, evidence handling, containment, structured escalation |
-| **Automation** | PowerShell with strict mode, parameter validation, `ShouldProcess` on destructive paths, Pester, GitHub Actions |
-| **Detection engineering** | Windows event analysis, detection logic, true and false positive reasoning, schema validation |
+| **Security & infrastructure engineering** | Windows estates, infrastructure operations, operational controls, change discipline |
+| **IAM / identity security** | Joiner/mover/leaver automation, access review, privileged-account audit, group-membership change detection, least privilege |
+| **Endpoint and Windows security** | Endpoint configuration and deployment, VPN and remote access, Windows, macOS and Linux server environments |
+| **PowerShell automation** | Strict mode, parameter validation, `ShouldProcess` on destructive paths, Pester, GitHub Actions |
+| **Security operations** | Triage, prioritisation, systems-level root-cause analysis, structured escalation |
+| **SOC / DFIR** | Detection logic from real event data, evidence handling, containment and remediation runbooks |
+
+---
+
+## Professional progression
+
+**IT Technician** → **IT / Infrastructure Specialist** → **Senior Technical Specialist / Engineer** → **Security & Infrastructure Engineer**
+
+Each step widened the same work rather than replacing it: from keeping endpoints and
+connectivity alive, to owning infrastructure and user lifecycle, to being the escalation point
+for problems that had already failed elsewhere, to building the automation and controls that
+stop them recurring.
+
+Job titles and dates are recorded on
+[LinkedIn](https://www.linkedin.com/in/marcuspaula/). The progression above describes scope and
+complexity, not a sequence of formal promotions.
+
+---
+
+## Global and cross-regional experience
+
+**Ireland** — Enterprise IT operations inside a global technology organisation: EMEA incident
+escalation, infrastructure and security collaboration, identity, endpoint and access operations.
+
+**Europe and EMEA** — Collaboration with international technical teams across time zones,
+remote troubleshooting and operational continuity across distributed environments.
+
+**China and global teams** — Cross-regional technical escalation, validation of unfamiliar
+systems alongside global specialists, and translating local EMEA issues into actionable
+technical information.
+
+**Brazil, Paraguay and Georgia** — Remote technical project development: security laboratories,
+PowerShell automation, portfolio engineering and validation workflows. Demonstrates sustained
+delivery across borders and remote-working environments.
 
 ---
 
 ## Featured projects
 
 **[Active Directory Security Automation](https://github.com/marcuspaula-seceng/active-directory-automation)**
-Identity lifecycle suite in PowerShell: joiner, mover and leaver flows, access review with
+Identity lifecycle in PowerShell: joiner, mover and leaver flows, access review with
 stale-account flagging, privileged-account audit, password-policy audit and group-membership
-delta reporting. Directory logic is isolated so it can be tested deterministically with Pester 5,
-with CI running under read-only workflow permissions.
+delta reporting. Directory logic isolated for deterministic testing with Pester 5, CI under
+read-only workflow permissions.
 *Laboratory build. Not executed against a production directory.*
 
 **[Windows Incident Triage](https://github.com/marcuspaula-seceng/dfir-playbook)**
@@ -52,33 +84,28 @@ Detection rules authored from real Windows event data, with fixtures, a declared
 positive matrix, and validation against an upstream JSON schema pinned by commit and hash.
 *Hands-on lab. Public-domain source data with recorded checksums.*
 
-The central hub is
-**[marcuspaula-security-portfolio](https://github.com/marcuspaula-seceng/marcuspaula-security-portfolio)**.
+Central hub:
+**[marcuspaula-security-portfolio](https://github.com/marcuspaula-seceng/marcuspaula-security-portfolio)**
 
 ---
 
 ## Technical timeline
 
-**Phase 1 — Security baseline**
-Windows infrastructure, endpoints, connectivity and account access, keeping a site running
-without in-house IT. Later, enterprise operations across EMEA: incidents, escalation and the
-documentation that makes an operation repeatable.
+**Phase 1 — Security baseline.** Windows infrastructure, endpoints, connectivity and account
+access. Later, enterprise operations across EMEA: incidents, escalation and the documentation
+that makes an operation repeatable.
 
-**Phase 2 — Investigation**
-Becoming the escalation point for problems that had already failed elsewhere. Root-cause
-analysis across identity, network, endpoint and server layers, and identifying the process gaps
-that let an issue reach a user in the first place.
+**Phase 2 — Investigation.** Root-cause analysis across identity, network, endpoint and server
+layers, and identifying the process gaps that let an issue reach a user in the first place.
 
-**Phase 3 — Automation and validation**
-Rebuilding recurring work as PowerShell with tests and CI. Isolating dependencies so logic can
-be verified without touching a live directory. Treating a green test suite as a claim to be
-checked rather than a result to be trusted.
+**Phase 3 — Automation and validation.** Rebuilding recurring work as PowerShell with tests and
+CI. Isolating dependencies so logic can be verified without touching a live directory.
 
-**Phase 4 — Outcome and lessons learned**
-A publication gate that caught nine of eleven scripts failing to parse after I had read them and
-judged them fine. A field truncation that kept an entire suite green while the rule never fired.
-A validator that was itself the defect. Each one became a standing rule, and most of the controls
-I build now exist to turn a silent success into a loud failure.
+**Phase 4 — Outcome and lessons learned.** A publication gate that caught nine of eleven scripts
+failing to parse after I had read them and judged them fine. A field truncation that kept an
+entire suite green while the rule never fired. A validator that was itself the defect. Each
+became a standing rule, and most of the controls I build now exist to turn a silent success
+into a loud failure.
 
 ---
 

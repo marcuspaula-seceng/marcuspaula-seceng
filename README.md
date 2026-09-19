@@ -1,130 +1,138 @@
 # Marcus de Paula
 
-**Security & Infrastructure Engineer**
-IAM · Endpoint Security · PowerShell Automation · Security Operations · Ireland
+## Security & Infrastructure Engineer
 
-> Hi, I'm Marcus — I secure identities, endpoints and infrastructure.
+**IT Operations · Infrastructure · IAM · Endpoint Security · PowerShell · Security Operations**
 
-Enterprise IT support and infrastructure experience, complemented by independent projects in
-identity automation, Windows detection and incident response.
+> I build reliable IT operations and turn recurring support problems into documented, secure and repeatable processes.
 
-Unrestricted right to work in Ireland. Available for Ireland-based and remote opportunities.
+Enterprise IT operations and infrastructure experience, complemented by hands-on security engineering labs in identity automation, Windows detection and incident response.
+
+Irish and Italian citizen with unrestricted right to work in Ireland. Available for Ireland-based and remote opportunities.
 
 [LinkedIn](https://www.linkedin.com/in/marcuspaula/) · [GitHub](https://github.com/marcuspaula-seceng)
 
 ---
 
-## Areas of work
+## Professional profile
 
-| | |
+My experience follows one connected path:
+
+**IT operations → infrastructure engineering → identity and endpoint security → security operations**
+
+I started with frontline support and workplace technology, then progressed into infrastructure ownership, lifecycle operations, technical escalation, documentation and automation. My current direction combines that operational background with security engineering: IAM, endpoint controls, PowerShell automation, detection and incident response.
+
+---
+
+## Core capabilities
+
+| Area | What I work with |
 |---|---|
-| **Security & infrastructure engineering** | Windows estates, infrastructure operations, operational controls, change discipline |
-| **IAM / identity security** | Joiner/mover/leaver automation, access review, privileged-account audit, group-membership change detection, least privilege |
-| **Endpoint and Windows security** | Endpoint configuration and deployment, VPN and remote access, Windows, macOS and Linux server environments |
-| **PowerShell automation** | Strict mode, parameter validation, `ShouldProcess` on destructive paths, Pester, GitHub Actions |
-| **Security operations** | Triage, prioritisation, systems-level root-cause analysis, structured escalation |
-| **SOC / DFIR** | Detection logic from real event data, evidence handling, containment and remediation runbooks |
+| **IT operations** | Incident triage, request fulfilment, escalation, operational documentation, vendor coordination and service continuity |
+| **Workplace technology** | Windows and macOS endpoints, mobile devices, meeting-room technology, remote support and user enablement |
+| **Infrastructure support** | Endpoint deployment, connectivity, VPN and remote access, systems troubleshooting and change discipline |
+| **Identity and access** | Joiner/mover/leaver workflows, access reviews, least privilege, account lifecycle and authorised data transfer |
+| **Endpoint security** | Secure configuration, device lifecycle controls, operational hardening and investigation support |
+| **Automation** | PowerShell, Bash and Python for repeatable administration, validation and reporting |
+| **Security operations** | Evidence-led triage, root-cause analysis, containment planning, escalation and remediation runbooks |
+| **SOC / DFIR development** | Windows event analysis, detection logic, chain of custody and incident-response methodology |
 
 ---
 
-## Professional progression
+## Enterprise IT operations — EMEA
 
-**IT Technician** → **IT / Infrastructure Specialist** → **Senior Technical Specialist / Engineer** → **Security & Infrastructure Engineer**
+### TikTok Technology Ireland — IT Support Engineer
 
-Each step widened the same work rather than replacing it: from keeping endpoints and
-connectivity alive, to owning infrastructure and user lifecycle, to being the escalation point
-for problems that had already failed elsewhere, to building the automation and controls that
-stop them recurring.
+Supported workplace technology and IT operations in Dublin within a global technology environment. The work included:
 
-Job titles and dates are recorded on
-[LinkedIn](https://www.linkedin.com/in/marcuspaula/). The progression above describes scope and
-complexity, not a sequence of formal promotions.
+- Supporting Windows, macOS, mobile devices, monitors and collaboration technology.
+- Managing device deployment, replacement, collection and employee offboarding activities.
+- Supporting account access, collaboration platforms and remote troubleshooting.
+- Coordinating secure data-ownership transfer during offboarding, with authorisation checked before action.
+- Handling incidents, service requests and structured escalation across distributed teams.
+- Coordinating equipment logistics with employees, couriers, vendors and internal stakeholders.
+- Supporting physical-access processes and workplace technology.
+- Creating reusable procedures and communication templates for operational consistency.
+- Sharing process knowledge with colleagues and helping improve repeatability.
 
----
-
-## Global and cross-regional experience
-
-**Ireland** — Enterprise IT operations inside a global technology organisation: EMEA incident
-escalation, infrastructure and security collaboration, identity, endpoint and access operations.
-
-**Europe and EMEA** — Collaboration with international technical teams across time zones,
-remote troubleshooting and operational continuity across distributed environments.
-
-**China and global teams** — Cross-regional technical escalation, validation of unfamiliar
-systems alongside global specialists, and translating local EMEA issues into actionable
-technical information.
-
-**Brazil, Paraguay and Georgia** — Remote technical project development: security laboratories,
-PowerShell automation, portfolio engineering and validation workflows. Demonstrates sustained
-delivery across borders and remote-working environments.
+This section describes professional responsibilities at a capability level. It deliberately excludes internal metrics, screenshots, ticket content, personal data, system topology and confidential operational details.
 
 ---
 
-## Featured projects
+## Infrastructure and engineering approach
 
-**[Active Directory Security Automation](https://github.com/marcuspaula-seceng/active-directory-automation)**
-Identity lifecycle in PowerShell: joiner, mover and leaver flows, access review with
-stale-account flagging, privileged-account audit, password-policy audit and group-membership
-delta reporting. Directory logic isolated for deterministic testing with Pester 5, CI under
-read-only workflow permissions.
-*Laboratory build. Not executed against a production directory.*
+I treat reliable operations as the foundation of security:
 
-**[Windows Incident Triage](https://github.com/marcuspaula-seceng/dfir-playbook)**
-Incident-response playbook and live-triage tooling for Windows and Linux: collection ordered by
-volatility, chain-of-custody templates, containment and remediation runbooks, following PICERL.
-*Independent project using synthetic data and fictional scenarios.*
-
-**[IAM Access Review Lab](https://github.com/marcuspaula-seceng/iam-zero-trust-architecture)**
-Access architecture and review tooling across PowerShell, Bash and Python: identity lifecycle,
-access governance, Zero Trust principles and operational controls.
-*Independent project. Not connected to a production identity provider.*
-
-**[Security Engineering Case Studies](https://github.com/marcuspaula-seceng/windows-detection-engineering-lab)**
-Detection rules authored from real Windows event data, with fixtures, a declared true and false
-positive matrix, and validation against an upstream JSON schema pinned by commit and hash.
-*Hands-on lab. Public-domain source data with recorded checksums.*
-
-Central hub:
-**[marcuspaula-security-portfolio](https://github.com/marcuspaula-seceng/marcuspaula-security-portfolio)**
+1. **Stabilise the service** — restore access, connectivity or endpoint function.
+2. **Establish the cause** — separate symptoms from identity, endpoint, network and process failures.
+3. **Control the change** — use documented, reversible steps with clear ownership.
+4. **Prevent recurrence** — convert repeated work into runbooks, validation or automation.
+5. **Preserve evidence** — record decisions and technical facts without exposing sensitive data.
 
 ---
 
-## Technical timeline
+## Security engineering portfolio
 
-**Phase 1 — Security baseline.** Windows infrastructure, endpoints, connectivity and account
-access. Later, enterprise operations across EMEA: incidents, escalation and the documentation
-that makes an operation repeatable.
+My security work is separated clearly from employer experience.
 
-**Phase 2 — Investigation.** Root-cause analysis across identity, network, endpoint and server
-layers, and identifying the process gaps that let an issue reach a user in the first place.
+| Workstream | Status | Focus |
+|---|---|---|
+| **Active Directory security automation** | Hands-on lab | Joiner/mover/leaver logic, access review, privileged-account and password-policy auditing |
+| **Windows detection engineering** | Hands-on lab | Event-driven detection, fixtures, positive/negative testing and schema validation |
+| **Incident-response playbooks** | Independent project | Evidence collection, chain of custody, containment and remediation |
+| **IAM and Zero Trust architecture** | Independent project | Identity lifecycle, access governance, least privilege and operational controls |
+| **Cloud and platform security** | In progress | Secure infrastructure patterns, threat modelling and automated validation |
 
-**Phase 3 — Automation and validation.** Rebuilding recurring work as PowerShell with tests and
-CI. Isolating dependencies so logic can be verified without touching a live directory.
-
-**Phase 4 — Outcome and lessons learned.** A publication gate that caught nine of eleven scripts
-failing to parse after I had read them and judged them fine. A field truncation that kept an
-entire suite green while the rule never fired. A validator that was itself the defect. Each
-became a standing rule, and most of the controls I build now exist to turn a silent success
-into a loud failure.
+Public case studies are released only after technical validation and confidentiality review. Private or unpublished repositories are not presented as publicly reviewable evidence.
 
 ---
 
-## How work is classified here
+## Tools and technologies
+
+**Operations and infrastructure:** Windows · macOS · Linux · Active Directory · Google Workspace · VPN · remote support · ticketing systems · endpoint lifecycle
+
+**Security and identity:** IAM · access governance · endpoint security · Windows Event Logs · incident response · evidence handling
+
+**Automation and engineering:** PowerShell · Bash · Python · Git · GitHub Actions · Pester
+
+**Currently developing:** Microsoft Defender for Endpoint · KQL · Microsoft Sentinel · Entra ID governance · cloud security engineering
+
+Items under “currently developing” are study and lab areas, not claims of production experience.
+
+---
+
+## How work is classified
 
 | Label | Meaning |
 |---|---|
-| **Professional Experience** | Paid work performed in role |
-| **Independent Project** | Built on my own initiative |
-| **Hands-on Lab** | Controlled exercise in a self-built environment |
-| **Study Notes** | Being learned; not yet demonstrable |
-| **In Progress** | Under active development |
+| **Professional experience** | Paid work performed as part of an employment role |
+| **Independent project** | Work built on my own initiative |
+| **Hands-on lab** | Controlled work in a self-built or synthetic environment |
+| **Study** | Technology being learned but not yet demonstrated |
+| **In progress** | Work that is not yet ready to be presented as complete |
 
-Nothing moves category to look stronger. Where something has not been proven, it says so.
+The category is part of the evidence. A lab is not presented as production work, and a private repository is not presented as a public deliverable.
+
+---
+
+## Confidentiality and legal boundary
+
+This public profile contains only sanitised, high-level professional information and independent technical work.
+
+- No proprietary employer source code, internal documentation or system architecture is published.
+- No internal screenshots, tickets, credentials, personal data or confidential metrics are published.
+- Employer names identify employment history only and do not imply endorsement.
+- Security demonstrations use synthetic, self-generated or appropriately licensed public data.
+- Technical examples are reviewed for secrets, third-party data and employer attribution before publication.
+
+---
 
 ## Current focus
 
-Windows detection engineering, incident-response methodology, and extending the PowerShell
-automation suite with validation that fails loudly.
+Building demonstrable capability across:
 
-Microsoft security tooling — Defender for Endpoint, KQL, Sentinel and Entra ID governance — is
-listed as **study**, not experience, and stays there until there is something to show.
+- Windows detection engineering and incident-response methodology.
+- IAM lifecycle and access-governance automation.
+- Endpoint and infrastructure security.
+- PowerShell automation with testing and safe failure behaviour.
+- Security operations grounded in real IT operational discipline.

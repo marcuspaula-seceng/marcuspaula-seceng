@@ -5,8 +5,8 @@ IAM · Endpoint Security · PowerShell Automation · Security Operations · Irel
 
 > Hi, I'm Marcus — I secure identities, endpoints and infrastructure.
 
-More than a decade of international IT and security experience, with hands-on development of
-security automation, IAM and incident-response capability.
+Enterprise IT support and infrastructure experience, complemented by independent projects in
+identity automation, Windows detection and incident response.
 
 Unrestricted right to work in Ireland. Available for Ireland-based and remote opportunities.
 

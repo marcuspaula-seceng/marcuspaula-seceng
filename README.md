@@ -47,6 +47,9 @@ Supported workplace technology and IT operations in Dublin within a global techn
 
 - Supporting Windows, macOS, mobile devices, monitors and collaboration technology.
 - Managing device deployment, replacement, collection and employee offboarding activities.
+- Supporting Apple Business Manager enrolment and Apple device lifecycle processes.
+- Supporting BitLocker encryption, recovery and secure Windows endpoint deployment.
+- Building and maintaining laptop imaging workflows and an imaging/deployment server.
 - Supporting account access, collaboration platforms and remote troubleshooting.
 - Coordinating secure data-ownership transfer during offboarding, with authorisation checked before action.
 - Handling incidents, service requests and structured escalation across distributed teams.

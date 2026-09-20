@@ -1,6 +1,6 @@
 # Marcus de Paula
 
-## Security & Infrastructure Engineer
+## Security & Infrastructure Engineer | IAM | Endpoint Security | PowerShell Automation | Security Operations | Ireland
 
 **IT Operations · Infrastructure · IAM · Endpoint Security · PowerShell · Security Operations**
 
@@ -31,6 +31,7 @@ I started with frontline support and workplace technology, then progressed into 
 | **IT operations** | Incident triage, request fulfilment, escalation, operational documentation, vendor coordination and service continuity |
 | **Workplace technology** | Windows and macOS endpoints, mobile devices, meeting-room technology, remote support and user enablement |
 | **Infrastructure support** | Endpoint deployment, connectivity, VPN and remote access, systems troubleshooting and change discipline |
+| **Windows endpoint administration** | Endpoint configuration, imaging and deployment workflows, encryption and recovery processes |
 | **Identity and access** | Joiner/mover/leaver workflows, access reviews, least privilege, account lifecycle and authorised data transfer |
 | **Endpoint security** | Secure configuration, device lifecycle controls, operational hardening and investigation support |
 | **Automation** | PowerShell, Bash and Python for repeatable administration, validation and reporting |
@@ -48,8 +49,8 @@ Supported workplace technology and IT operations in Dublin within a global techn
 - Supporting Windows, macOS, mobile devices, monitors and collaboration technology.
 - Managing device deployment, replacement, collection and employee offboarding activities.
 - Supporting Apple Business Manager enrolment and Apple device lifecycle processes.
-- Supporting BitLocker encryption, recovery and secure Windows endpoint deployment.
-- Building and maintaining laptop imaging workflows and an imaging/deployment server.
+- Supported Microsoft BitLocker Administration and Monitoring (MBAM), BitLocker encryption, recovery and compliance workflows for Windows endpoints.
+- Built and maintained Windows laptop imaging workflows and an imaging/deployment server.
 - Supporting account access, collaboration platforms and remote troubleshooting.
 - Coordinating secure data-ownership transfer during offboarding, with authorisation checked before action.
 - Handling incidents, service requests and structured escalation across distributed teams.
@@ -76,15 +77,15 @@ I treat reliable operations as the foundation of security:
 
 ## Security engineering portfolio
 
-My security work is separated clearly from employer experience.
+My security work is separated clearly from employer experience. Every project listed below is public and independently built.
 
 | Workstream | Status | Focus |
 |---|---|---|
 | [**Active Directory security automation**](https://github.com/marcuspaula-seceng/active-directory-automation) | Hands-on lab | Joiner/mover/leaver logic, access review, privileged-account and password-policy auditing |
 | [**Windows detection engineering**](https://github.com/marcuspaula-seceng/windows-detection-engineering-lab) | Hands-on lab | Event-driven detection, fixtures, positive/negative testing and schema validation |
-| **Incident-response playbooks** | Independent project | Evidence collection, chain of custody, containment and remediation |
-| **IAM and Zero Trust architecture** | Independent project | Identity lifecycle, access governance, least privilege and operational controls |
-| **Cloud and platform security** | In progress | Secure infrastructure patterns, threat modelling and automated validation |
+| [**Incident Response Playbooks**](https://github.com/marcuspaula-seceng/dfir-playbook) | Independent project | Evidence collection, chain of custody, triage, containment, remediation and lessons learned |
+| [**IAM and Zero Trust Architecture**](https://github.com/marcuspaula-seceng/iam-zero-trust-architecture) | Independent project | Identity lifecycle, access governance, least privilege and operational controls |
+| [**Cloud Threat Hunting Platform**](https://github.com/marcuspaula-seceng/cloud-threat-hunting-platform) | Independent project | Cloud logging, threat detection, investigation, automation and platform security |
 
 Public case studies are released only after technical validation and confidentiality review. Private or unpublished repositories are not presented as publicly reviewable evidence.
 
@@ -93,6 +94,8 @@ Public case studies are released only after technical validation and confidentia
 ## Tools and technologies
 
 **Operations and infrastructure:** Windows · macOS · Linux · Active Directory · Google Workspace · VPN · remote support · ticketing systems · endpoint lifecycle
+
+**Endpoint and encryption:** Windows imaging and deployment · Microsoft BitLocker Administration and Monitoring (MBAM) · BitLocker encryption and recovery workflows · device lifecycle controls
 
 **Security and identity:** IAM · access governance · endpoint security · Windows Event Logs · incident response · evidence handling
 

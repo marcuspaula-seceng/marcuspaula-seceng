@@ -75,6 +75,18 @@ I treat reliable operations as the foundation of security:
 
 ---
 
+## Featured projects
+
+Three laboratories where every claim ships with the script that produced it, the raw output, a test suite and a statement of what it does *not* prove. All data is synthetic; none of it ran in any employer's environment.
+
+| Project | Problem | What I built | How to verify |
+|---|---|---|---|
+| [**llm-agent-security-lab**](https://github.com/marcuspaula-seceng/llm-agent-security-lab) | Does a system prompt protect a secret? Does an agent with tools obey a poisoned file? | Measured attacks against a local LLM (5/5 leaked → 1/5 with a hardened prompt → 0/5 with the secret out of context; agent tool-abuse 2/2 → 0/2 with a code guard) and the two guards that came out of it | `python -m unittest discover -s tests` · CI on every push · raw outputs committed unedited |
+| [**it-ops-ai-cyber-lab**](https://github.com/marcuspaula-seceng/it-ops-ai-cyber-lab) | IT-operations processes I ran — imaging validation, asset audit, device return, MDM, meeting rooms — had no security layer and no safe way to use AI | Read-only PowerShell and Python modules with security gates (`Unknown ≠ Pass`, `-WhatIf` proven) and a local model that ranks findings behind validators for commands, intent, invented identifiers and numbers | `python -m unittest discover` per module (35, in CI) · Pester 3.4 locally (62) · limits of the guards documented |
+| [**sentinel-detection-lab**](https://github.com/marcuspaula-seceng/sentinel-detection-lab) | Detection engineering for Microsoft Sentinel without a workspace | Four analytics rules in the community template format, a local evaluator for their KQL subset, 45 declared fixtures, a correlation case showing why three telemetry families do not join, an automation rule against the ARM schema | `python topicos/03-sentinel/tools/lab.py all` · CI on every push |
+
+---
+
 ## Security engineering portfolio
 
 My security work is separated clearly from employer experience. Every project listed below is public and independently built.

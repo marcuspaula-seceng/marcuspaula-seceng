@@ -1,6 +1,6 @@
 # Marcus de Paula
 
-## Security & Infrastructure Engineer | IAM | Endpoint Security | PowerShell Automation | Security Operations | Ireland
+## Security & Infrastructure Engineer | IAM | Endpoint Security | PowerShell Automation | Security Operations | Ireland - EMEA
 
 **IT Operations · Infrastructure · IAM · Endpoint Security · PowerShell · Security Operations**
 

@@ -87,6 +87,8 @@ Three projects where every claim ships with its evidence. The portfolio describe
 | [**llm-agent-security-lab**](https://github.com/marcuspaula-seceng/llm-agent-security-lab) | Does a system prompt protect a secret? Does an agent with tools obey a poisoned file? | Measured attacks against a local LLM (5/5 leaked → 1/5 with a hardened prompt → 0/5 with the secret out of context; agent tool-abuse 2/2 → 0/2 with a code guard) and the two guards that came out of it | `python -m unittest discover -s tests` · CI on every push · raw outputs committed unedited |
 | [**sentinel-detection-lab**](https://github.com/marcuspaula-seceng/sentinel-detection-lab) | Detection engineering for Microsoft Sentinel without a workspace | Four analytics rules in the community template format, a local evaluator for their KQL subset, 45 declared fixtures, a correlation case showing why three telemetry families do not join, an automation rule against the ARM schema | `python topicos/03-sentinel/tools/lab.py all` · CI on every push |
 
+**Flowcharts (PDF):** [Experience flow](https://github.com/marcuspaula-seceng/it-infrastructure-operations-portfolio/blob/main/docs/Marcus_Paula_Experience_Flow.pdf), where each skill comes from and the project that proves it · [Identity and endpoint lifecycle](https://github.com/marcuspaula-seceng/it-infrastructure-operations-portfolio/blob/main/projects/08-identity-endpoint-lifecycle/identity-endpoint-lifecycle-flow.pdf), the joiner and leaver steps · [Active Directory automation lab](https://github.com/marcuspaula-seceng/active-directory-automation/blob/main/docs/ad-automation-lab-flow.pdf), how each script works
+
 ---
 
 ## Security engineering portfolio

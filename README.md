@@ -153,6 +153,7 @@ This public profile contains only sanitised, high-level professional information
 
 Building demonstrable capability across:
 
+- **Jira administration and project management** — about 50 hours of hands-on Jira courses in progress (*Project Management with Jira Cloud: Improve Your Process to Effectively Manage and Deliver Work*; *Jira Core Concepts and Advanced Features* by Pearson; *Learning Jira (Cloud Edition)*), each topic applied in my [JSM lab](https://github.com/marcuspaula-seceng/it-infrastructure-operations-portfolio/blob/main/projects/07-jira-service-management-lab/learning-path.md).
 - Windows detection engineering and incident-response methodology.
 - IAM lifecycle and access-governance automation.
 - Endpoint and infrastructure security.

@@ -1,8 +1,8 @@
 # Marcus de Paula
 
-## Security & Infrastructure Engineer | IAM | Endpoint Security | PowerShell Automation | Security Operations | Ireland - EMEA
+## IT Operations Engineer | Jira Service Management | Entra ID & Microsoft 365 | Mac & Windows | PowerShell | Dublin, Ireland
 
-**IT Operations · Infrastructure · IAM · Endpoint Security · PowerShell · Security Operations**
+**IT Operations · Jira Service Management · Identity & Access · Mac & Windows Endpoints · PowerShell · Security**
 
 > I build reliable IT operations and turn recurring support problems into documented, secure and repeatable processes.
 
@@ -42,7 +42,7 @@ I started with frontline support and workplace technology, then progressed into 
 
 ## Enterprise IT operations — EMEA
 
-### TikTok Technology Ireland — IT Support Engineer
+### TikTok Technology Ireland — IT Operations Engineer (March 2023 – September 2026)
 
 Supported workplace technology and IT operations in Dublin within a global technology environment. The work included:
 
@@ -51,7 +51,9 @@ Supported workplace technology and IT operations in Dublin within a global techn
 - Supporting Apple Business Manager enrolment and Apple device lifecycle processes.
 - Supported Microsoft BitLocker Administration and Monitoring (MBAM), BitLocker encryption, recovery and compliance workflows for Windows endpoints.
 - Built and maintained Windows laptop imaging workflows and an imaging/deployment server.
-- Supporting account access, collaboration platforms and remote troubleshooting.
+- Running joiner and leaver workflows: creating and disabling accounts in Entra ID, resetting passwords and MFA, assigning Microsoft 365 licences and groups.
+- Preparing Mac laptops registered in Apple Business Manager and configured with Puppet, and Windows laptops encrypted with BitLocker.
+- Working the Jira service desk daily as an agent: incidents, requests and escalations.
 - Coordinating secure data-ownership transfer during offboarding, with authorisation checked before action.
 - Handling incidents, service requests and structured escalation across distributed teams.
 - Coordinating equipment logistics with employees, couriers, vendors and internal stakeholders.
@@ -77,12 +79,12 @@ I treat reliable operations as the foundation of security:
 
 ## Featured projects
 
-Three laboratories where every claim ships with the script that produced it, the raw output, a test suite and a statement of what it does *not* prove. All data is synthetic; none of it ran in any employer's environment.
+Three projects where every claim ships with its evidence. The portfolio describes real work at a high level, with demonstration artefacts rebuilt on synthetic data; the two labs use synthetic data only and say what they do *not* prove.
 
 | Project | Problem | What I built | How to verify |
 |---|---|---|---|
+| [**it-infrastructure-operations-portfolio**](https://github.com/marcuspaula-seceng/it-infrastructure-operations-portfolio) | How enterprise IT operations work was done, and how I rebuilt a service desk from scratch | Sanitised case studies (imaging 60 → 15 min, asset return across three sites, identity and endpoint lifecycle) and a **Jira Service Management lab**: request types, SLAs on a Dublin business calendar, joiner/leaver automation, manager approval, Confluence knowledge base | Build log, configuration and screenshots for every step, including what broke and how it was fixed |
 | [**llm-agent-security-lab**](https://github.com/marcuspaula-seceng/llm-agent-security-lab) | Does a system prompt protect a secret? Does an agent with tools obey a poisoned file? | Measured attacks against a local LLM (5/5 leaked → 1/5 with a hardened prompt → 0/5 with the secret out of context; agent tool-abuse 2/2 → 0/2 with a code guard) and the two guards that came out of it | `python -m unittest discover -s tests` · CI on every push · raw outputs committed unedited |
-| [**it-ops-ai-cyber-lab**](https://github.com/marcuspaula-seceng/it-ops-ai-cyber-lab) | IT-operations processes I ran — imaging validation, asset audit, device return, MDM, meeting rooms — had no security layer and no safe way to use AI | Read-only PowerShell and Python modules with security gates (`Unknown ≠ Pass`, `-WhatIf` proven) and a local model that ranks findings behind validators for commands, intent, invented identifiers and numbers | `python -m unittest discover` per module (35, in CI) · Pester 3.4 locally (62) · limits of the guards documented |
 | [**sentinel-detection-lab**](https://github.com/marcuspaula-seceng/sentinel-detection-lab) | Detection engineering for Microsoft Sentinel without a workspace | Four analytics rules in the community template format, a local evaluator for their KQL subset, 45 declared fixtures, a correlation case showing why three telemetry families do not join, an automation rule against the ARM schema | `python topicos/03-sentinel/tools/lab.py all` · CI on every push |
 
 ---
@@ -105,7 +107,7 @@ Public case studies are released only after technical validation and confidentia
 
 ## Tools and technologies
 
-**Operations and infrastructure:** Windows · macOS · Linux · Active Directory · Google Workspace · VPN · remote support · ticketing systems · endpoint lifecycle
+**Operations and infrastructure:** Jira Service Management · Confluence · Entra ID · Microsoft 365 · Apple Business Manager · Puppet · Windows · macOS · Linux · Active Directory · Google Workspace · VPN · remote support · ticketing systems · endpoint lifecycle
 
 **Endpoint and encryption:** Windows imaging and deployment · Microsoft BitLocker Administration and Monitoring (MBAM) · BitLocker encryption and recovery workflows · device lifecycle controls
 
@@ -113,7 +115,7 @@ Public case studies are released only after technical validation and confidentia
 
 **Automation and engineering:** PowerShell · Bash · Python · Git · GitHub Actions · Pester
 
-**Currently developing:** Microsoft Defender for Endpoint · KQL · Microsoft Sentinel · Entra ID governance · cloud security engineering
+**Currently developing:** Microsoft Defender for Endpoint · KQL · Microsoft Sentinel · Entra ID Governance (access reviews, PIM) · cloud security engineering
 
 Items under “currently developing” are study and lab areas, not claims of production experience.
 

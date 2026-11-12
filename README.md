@@ -53,7 +53,7 @@ Supported workplace technology and IT operations in Dublin within a global techn
 - Built and maintained Windows laptop imaging workflows and an imaging/deployment server.
 - Running joiner and leaver workflows: creating and disabling accounts in Entra ID, resetting passwords and MFA, assigning Microsoft 365 licences and groups.
 - Preparing Mac laptops registered in Apple Business Manager and configured with Puppet, and Windows laptops encrypted with BitLocker.
-- Working the Jira service desk daily as an agent: incidents, requests and escalations.
+- Working the Jira service desk daily as an agent: incidents, requests and escalations, with tickets routed into queues by country, each owned by a team, and pre-assigned to engineers.
 - Coordinating secure data-ownership transfer during offboarding, with authorisation checked before action.
 - Handling incidents, service requests and structured escalation across distributed teams.
 - Coordinating equipment logistics with employees, couriers, vendors and internal stakeholders.
@@ -83,7 +83,7 @@ Three projects where every claim ships with its evidence. The portfolio describe
 
 | Project | Problem | What I built | How to verify |
 |---|---|---|---|
-| [**it-infrastructure-operations-portfolio**](https://github.com/marcuspaula-seceng/it-infrastructure-operations-portfolio) | How enterprise IT operations work was done, and how I rebuilt a service desk from scratch | Sanitised case studies (imaging 60 → 15 min, asset return across three sites, identity and endpoint lifecycle) and a **Jira Service Management lab**: request types, SLAs on a Dublin business calendar, joiner/leaver automation, manager approval, Confluence knowledge base | Build log, configuration and screenshots for every step, including what broke and how it was fixed |
+| [**it-infrastructure-operations-portfolio**](https://github.com/marcuspaula-seceng/it-infrastructure-operations-portfolio) | How enterprise IT operations work was done, and how I rebuilt a service desk from scratch | Sanitised case studies (imaging 60 → 15 min, asset return across three sites, identity and endpoint lifecycle) and a **Jira Service Management lab**: request types, SLAs on a Dublin business calendar, country queues with pre-assignment, joiner/leaver automation, manager approval, Assets (CMDB) laptop audit and return, incident/problem/change with CAB approval, Confluence knowledge base | Build log, configuration and screenshots for every step, including what broke and how it was fixed |
 | [**llm-agent-security-lab**](https://github.com/marcuspaula-seceng/llm-agent-security-lab) | Does a system prompt protect a secret? Does an agent with tools obey a poisoned file? | Measured attacks against a local LLM (5/5 leaked → 1/5 with a hardened prompt → 0/5 with the secret out of context; agent tool-abuse 2/2 → 0/2 with a code guard) and the two guards that came out of it | `python -m unittest discover -s tests` · CI on every push · raw outputs committed unedited |
 | [**sentinel-detection-lab**](https://github.com/marcuspaula-seceng/sentinel-detection-lab) | Detection engineering for Microsoft Sentinel without a workspace | Four analytics rules in the community template format, a local evaluator for their KQL subset, 45 declared fixtures, a correlation case showing why three telemetry families do not join, an automation rule against the ARM schema | `python topicos/03-sentinel/tools/lab.py all` · CI on every push |
 

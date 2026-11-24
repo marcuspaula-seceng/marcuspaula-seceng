@@ -1,161 +1,163 @@
-# Marcus de Paula
+<div align="center">
 
-## IT Operations Engineer | Jira Service Management | Entra ID & Microsoft 365 | Mac & Windows | PowerShell | Dublin, Ireland
+# Marcus Paula
 
-**IT Operations · Jira Service Management · Identity & Access · Mac & Windows Endpoints · PowerShell · Security**
+### IT Operations Engineer → Security Operations
 
-> I build reliable IT operations and turn recurring support problems into documented, secure and repeatable processes.
+**14 years in IT (since 2012) · 4 years in TikTok's EMEA IT team, Dublin · Identity, endpoints and service management · Building a SOC / blue-team skill set in public**
 
-Enterprise IT operations and infrastructure experience, complemented by hands-on security engineering labs in identity automation, Windows detection and incident response.
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-marcuspaula-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/marcuspaula/)
+[![Location](https://img.shields.io/badge/Dublin-Ireland-169B62?style=for-the-badge)](#)
+[![Right to work](https://img.shields.io/badge/EU_citizen-full_right_to_work-2F3B52?style=for-the-badge)](#)
+[![Open to](https://img.shields.io/badge/Open_to-IT_Ops_·_Infra_·_SOC-success?style=for-the-badge)](#)
 
-Irish and Italian citizen with unrestricted right to work in Ireland. Available for Ireland-based and remote opportunities.
+</div>
 
-[LinkedIn](https://www.linkedin.com/in/marcuspaula/) · [GitHub](https://github.com/marcuspaula-seceng)
-
----
-
-## Professional profile
-
-My experience follows one connected path:
-
-**IT operations → infrastructure engineering → identity and endpoint security → security operations**
-
-I started with frontline support and workplace technology, then progressed into infrastructure ownership, lifecycle operations, technical escalation, documentation and automation. My current direction combines that operational background with security engineering: IAM, endpoint controls, PowerShell automation, detection and incident response.
+> I keep IT running, then I make it repeatable and secure: recurring problems become documented, tested and automated processes.
 
 ---
 
-## Core capabilities
+## At a glance (30-second read)
 
-| Area | What I work with |
+| | |
 |---|---|
-| **IT operations** | Incident triage, request fulfilment, escalation, operational documentation, vendor coordination and service continuity |
-| **Workplace technology** | Windows and macOS endpoints, mobile devices, meeting-room technology, remote support and user enablement |
-| **Infrastructure support** | Endpoint deployment, connectivity, VPN and remote access, systems troubleshooting and change discipline |
-| **Windows endpoint administration** | Endpoint configuration, imaging and deployment workflows, encryption and recovery processes |
-| **Identity and access** | Joiner/mover/leaver workflows, access reviews, least privilege, account lifecycle and authorised data transfer |
-| **Endpoint security** | Secure configuration, device lifecycle controls, operational hardening and investigation support |
-| **Automation** | PowerShell, Bash and Python for repeatable administration, validation and reporting |
-| **Security operations** | Evidence-led triage, root-cause analysis, containment planning, escalation and remediation runbooks |
-| **SOC / DFIR development** | Windows event analysis, detection logic, chain of custody and incident-response methodology |
+| **Current level** | IT Operations Engineer, L2/L3 escalation point (TikTok Technology Ireland, 2022–2026) |
+| **Core strengths** | Identity & access (Entra ID, AD, M365) · Windows & macOS endpoint lifecycle · Jira service desk · ITAM · PowerShell automation |
+| **Measured results** | Device preparation **60 → 15 min** · imaging network **100 Mbps → 1 Gbps** · **5,000+ assets** reconciled to **99%** audit visibility · **~400 devices** deployed at one Dublin site |
+| **Security track** | 26 TryHackMe SOC Level 1 rooms documented · Sigma & Sentinel detection labs · DFIR playbooks · IAM / Zero Trust lab |
+| **Education** | Postgraduate study in Cyber Security, NCI (programme on hold) · Enterprise Development Programme, TU Dublin |
+| **Languages** | English (full professional) · Portuguese (native) |
 
 ---
 
-## Enterprise IT operations — EMEA
+## Career journey
 
-### TikTok Technology Ireland — IT Operations Engineer (March 2023 – September 2026)
+```mermaid
+timeline
+    title From frontline support to security operations
+    2012 - 2020 : IT Infrastructure Engineer (freelance) - Academic Bridge, Dublin
+                : Endpoints, Microsoft 365, networking, user accounts
+    2017 - 2018 : Enterprise Development Programme - TU Dublin
+    2018 - 2019 : IT Support Engineer (contract) - Ergo, Dublin
+    2019 - 2021 : Security Officer - Provincial (TikTok and Facebook sites)
+                : Access control, CCTV, incident reporting, GDPR exposure
+    2020 - 2021 : Cyber Security Consultant (freelance) - NNK Real Estate IM
+                : Risk advisory, GRC, incident-response support
+    2022 - 2023 : IT Operations - TikTok EMEA via Hylas Technology
+                : Imaging servers EMEA & China, 400-device site rollout, asset audit
+    2023 - 2026 : IT Operations Engineer - TikTok Technology Ireland
+                : L2/L3 escalation, Entra ID & M365 lifecycle, Mac & Windows fleet, Jira service desk
+    2026 : Security operations track
+         : SOC Level 1 labs, detection engineering, DFIR, JSM lab
+```
 
-Supported workplace technology and IT operations in Dublin within a global technology environment. The work included:
+**How the skills built on each other**
 
-- Supporting Windows, macOS, mobile devices, monitors and collaboration technology.
-- Managing device deployment, replacement, collection and employee offboarding activities.
-- Supporting Apple Business Manager enrolment and Apple device lifecycle processes.
-- Supported Microsoft BitLocker Administration and Monitoring (MBAM), BitLocker encryption, recovery and compliance workflows for Windows endpoints.
-- Built and maintained Windows laptop imaging workflows and an imaging/deployment server.
-- Running joiner and leaver workflows: creating and disabling accounts in Entra ID, resetting passwords and MFA, assigning Microsoft 365 licences and groups.
-- Preparing Mac laptops registered in Apple Business Manager and configured with Puppet, and Windows laptops encrypted with BitLocker.
-- Working the Jira service desk daily as an agent: incidents, requests and escalations, with tickets routed into queues by country, each owned by a team, and pre-assigned to engineers.
-- Coordinating secure data-ownership transfer during offboarding, with authorisation checked before action.
-- Handling incidents, service requests and structured escalation across distributed teams.
-- Coordinating equipment logistics with employees, couriers, vendors and internal stakeholders.
-- Supporting physical-access processes and workplace technology.
-- Creating reusable procedures and communication templates for operational consistency.
-- Sharing process knowledge with colleagues and helping improve repeatability.
-
-This section describes professional responsibilities at a capability level. It deliberately excludes internal metrics, screenshots, ticket content, personal data, system topology and confidential operational details.
-
----
-
-## Infrastructure and engineering approach
-
-I treat reliable operations as the foundation of security:
-
-1. **Stabilise the service** — restore access, connectivity or endpoint function.
-2. **Establish the cause** — separate symptoms from identity, endpoint, network and process failures.
-3. **Control the change** — use documented, reversible steps with clear ownership.
-4. **Prevent recurrence** — convert repeated work into runbooks, validation or automation.
-5. **Preserve evidence** — record decisions and technical facts without exposing sensitive data.
+```mermaid
+flowchart LR
+    A["Frontline support<br/>users · endpoints · M365"] --> B["Infrastructure<br/>imaging · servers · network"]
+    B --> C["Operations ownership<br/>L2/L3 · ITAM · runbooks"]
+    C --> D["Identity & endpoint security<br/>JML · least privilege · encryption"]
+    D --> E["Security operations<br/>triage · detection · DFIR"]
+```
 
 ---
 
-## Featured projects
+## Enterprise experience: TikTok EMEA, Dublin (Jan 2022 – Oct 2026)
 
-Three projects where every claim ships with its evidence. The portfolio describes real work at a high level, with demonstration artefacts rebuilt on synthetic data; the two labs use synthetic data only and say what they do *not* prove.
+*Contract via Hylas Technology (Jan 2022 – Feb 2023), then full-time IT Operations Engineer (Mar 2023 – Oct 2026). The role ended when TikTok centralised its EMEA service desk.*
 
-| Project | Problem | What I built | How to verify |
-|---|---|---|---|
-| [**it-infrastructure-operations-portfolio**](https://github.com/marcuspaula-seceng/it-infrastructure-operations-portfolio) | How enterprise IT operations work was done, and how I rebuilt a service desk from scratch | Sanitised case studies (imaging 60 → 15 min, asset return across three sites, identity and endpoint lifecycle) and a **Jira Service Management lab**: request types, SLAs on a Dublin business calendar, country queues with pre-assignment, joiner/leaver automation, manager approval, Assets (CMDB) laptop audit and return, incident/problem/change with CAB approval, Confluence knowledge base | Build log, configuration and screenshots for every step, including what broke and how it was fixed |
-| [**llm-agent-security-lab**](https://github.com/marcuspaula-seceng/llm-agent-security-lab) | Does a system prompt protect a secret? Does an agent with tools obey a poisoned file? | Measured attacks against a local LLM (5/5 leaked → 1/5 with a hardened prompt → 0/5 with the secret out of context; agent tool-abuse 2/2 → 0/2 with a code guard) and the two guards that came out of it | `python -m unittest discover -s tests` · CI on every push · raw outputs committed unedited |
-| [**sentinel-detection-lab**](https://github.com/marcuspaula-seceng/sentinel-detection-lab) | Detection engineering for Microsoft Sentinel without a workspace | Four analytics rules in the community template format, a local evaluator for their KQL subset, 45 declared fixtures, a correlation case showing why three telemetry families do not join, an automation rule against the ARM schema | `python topicos/03-sentinel/tools/lab.py all` · CI on every push |
+- **Escalation point (L2/L3)** for identity, access, VPN, network, endpoint and server incidents, owned through to resolution and written up as reusable runbooks.
+- **Identity lifecycle:** created and disabled Entra ID accounts, reset passwords and MFA, assigned Microsoft 365 licences, groups and shared mailboxes.
+- **Endpoint lifecycle:** Macs via Apple Business Manager + Puppet, Windows via imaging + BitLocker/MBAM; lock, wipe, return and redeploy.
+- **Service desk:** Jira daily as an agent, with country queues owned by teams and tickets pre-assigned to engineers.
+- **Projects:** imaging servers across EMEA & China (10 → 50 devices/hour), 400-device Dublin rollout, Lark migration and 25 new meeting rooms, asset audit across three sites.
 
-**Flowcharts (PDF):** [Experience flow](https://github.com/marcuspaula-seceng/it-infrastructure-operations-portfolio/blob/main/docs/Marcus_Paula_Experience_Flow.pdf), where each skill comes from and the project that proves it · [Identity and endpoint lifecycle](https://github.com/marcuspaula-seceng/it-infrastructure-operations-portfolio/blob/main/projects/08-identity-endpoint-lifecycle/identity-endpoint-lifecycle-flow.pdf), the joiner and leaver steps · [Active Directory automation lab](https://github.com/marcuspaula-seceng/active-directory-automation/blob/main/docs/ad-automation-lab-flow.pdf), how each script works
-
----
-
-## Security engineering portfolio
-
-My security work is separated clearly from employer experience. Every project listed below is public and independently built.
-
-| Workstream | Status | Focus |
-|---|---|---|
-| [**Active Directory security automation**](https://github.com/marcuspaula-seceng/active-directory-automation) | Hands-on lab | Joiner/mover/leaver logic, access review, privileged-account and password-policy auditing |
-| [**Windows detection engineering**](https://github.com/marcuspaula-seceng/windows-detection-engineering-lab) | Hands-on lab | Event-driven detection, fixtures, positive/negative testing and schema validation |
-| [**Incident Response Playbooks**](https://github.com/marcuspaula-seceng/dfir-playbook) | Independent project | Evidence collection, chain of custody, triage, containment, remediation and lessons learned |
-| [**IAM and Zero Trust Architecture**](https://github.com/marcuspaula-seceng/iam-zero-trust-architecture) | Independent project | Identity lifecycle, access governance, least privilege and operational controls |
-| [**Cloud Threat Hunting Platform**](https://github.com/marcuspaula-seceng/cloud-threat-hunting-platform) | Independent project | Cloud logging, threat detection, investigation, automation and platform security |
-
-Public case studies are released only after technical validation and confidentiality review. Private or unpublished repositories are not presented as publicly reviewable evidence.
+Employer names identify employment history only. No internal data, screenshots, tickets or system details are published here.
 
 ---
 
-## Tools and technologies
+## Portfolio: proof, not just claims
 
-**Operations and infrastructure:** Jira Service Management · Confluence · Entra ID · Microsoft 365 · Apple Business Manager · Puppet · Windows · macOS · Linux · Active Directory · Google Workspace · VPN · remote support · ticketing systems · endpoint lifecycle
+Every repository says what is **professional work**, a **hands-on lab** or **study**, and what it does *not* prove.
 
-**Endpoint and encryption:** Windows imaging and deployment · Microsoft BitLocker Administration and Monitoring (MBAM) · BitLocker encryption and recovery workflows · device lifecycle controls
+### IT operations & identity
 
-**Security and identity:** IAM · access governance · endpoint security · Windows Event Logs · incident response · evidence handling
-
-**Automation and engineering:** PowerShell · Bash · Python · Git · GitHub Actions · Pester
-
-**Currently developing:** Microsoft Defender for Endpoint · KQL · Microsoft Sentinel · Entra ID Governance (access reviews, PIM) · cloud security engineering
-
-Items under “currently developing” are study and lab areas, not claims of production experience.
-
----
-
-## How work is classified
-
-| Label | Meaning |
+| Repository | What it shows |
 |---|---|
-| **Professional experience** | Paid work performed as part of an employment role |
-| **Independent project** | Work built on my own initiative |
-| **Hands-on lab** | Controlled work in a self-built or synthetic environment |
-| **Study** | Technology being learned but not yet demonstrated |
-| **In progress** | Work that is not yet ready to be presented as complete |
+| [**active-directory-automation**](https://github.com/marcuspaula-seceng/active-directory-automation) | PowerShell joiner/mover/leaver, access reviews, privileged-account audit. `-WhatIf` first, Pester tests, CI |
+| [**iam-zero-trust-architecture**](https://github.com/marcuspaula-seceng/iam-zero-trust-architecture) | Identity lifecycle and Zero Trust reference design with automation examples |
+| [**it-operations-writeups**](https://github.com/marcuspaula-seceng/it-operations-writeups) | Short technical write-ups from my home lab, with measured numbers |
 
-The category is part of the evidence. A lab is not presented as production work, and a private repository is not presented as a public deliverable.
+### Security operations & detection
+
+| Repository | What it shows |
+|---|---|
+| [**cybersecurity-labs**](https://github.com/marcuspaula-seceng/cybersecurity-labs) | **26 TryHackMe SOC Level 1 rooms**, step by step with screenshots (Splunk, SIEM, EDR, phishing, MITRE ATT&CK, Wireshark), plus Hack The Box write-ups |
+| [**sentinel-detection-lab**](https://github.com/marcuspaula-seceng/sentinel-detection-lab) | Microsoft Sentinel analytics rules, local KQL evaluator, 45 fixtures, triage playbook, CI |
+| [**windows-detection-engineering-lab**](https://github.com/marcuspaula-seceng/windows-detection-engineering-lab) | Sigma rules for Windows validated in CI against public EVTX samples |
+| [**dfir-playbook**](https://github.com/marcuspaula-seceng/dfir-playbook) | Incident-response runbooks, triage scripts, chain of custody, evidence templates |
+
+### Cloud & AI security
+
+| Repository | What it shows |
+|---|---|
+| [**cloud-threat-hunting-platform**](https://github.com/marcuspaula-seceng/cloud-threat-hunting-platform) | AWS threat hunting: Athena queries, Terraform, GuardDuty / Security Hub design |
+| [**llm-agent-security-lab**](https://github.com/marcuspaula-seceng/llm-agent-security-lab) | Measured prompt-injection tests on a local LLM (5/5 leaked → 0/5 with the fix), CI |
 
 ---
 
-## Confidentiality and legal boundary
+## Skills
 
-This public profile contains only sanitised, high-level professional information and independent technical work.
+**Professional (hands-on at work)**
 
-- No proprietary employer source code, internal documentation or system architecture is published.
-- No internal screenshots, tickets, credentials, personal data or confidential metrics are published.
-- Employer names identify employment history only and do not imply endorsement.
-- Security demonstrations use synthetic, self-generated or appropriately licensed public data.
-- Technical examples are reviewed for secrets, third-party data and employer attribution before publication.
+![Entra ID](https://img.shields.io/badge/Entra_ID-0078D4?style=flat-square&logo=microsoft&logoColor=white)
+![Microsoft 365](https://img.shields.io/badge/Microsoft_365-D83B01?style=flat-square&logo=microsoftoffice&logoColor=white)
+![Active Directory](https://img.shields.io/badge/Active_Directory-003A70?style=flat-square&logo=windows&logoColor=white)
+![Jira](https://img.shields.io/badge/Jira-0052CC?style=flat-square&logo=jira&logoColor=white)
+![Windows](https://img.shields.io/badge/Windows-0078D6?style=flat-square&logo=windows&logoColor=white)
+![macOS](https://img.shields.io/badge/macOS-000000?style=flat-square&logo=apple&logoColor=white)
+![Apple Business Manager](https://img.shields.io/badge/Apple_Business_Manager-555555?style=flat-square&logo=apple&logoColor=white)
+![Puppet](https://img.shields.io/badge/Puppet-FFAE1A?style=flat-square&logo=puppet&logoColor=black)
+![BitLocker](https://img.shields.io/badge/BitLocker_/_MBAM-2F3B52?style=flat-square)
+![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black)
+![VPN](https://img.shields.io/badge/VPN_&_networking-4B5563?style=flat-square)
+
+**Automation & engineering**
+
+![PowerShell](https://img.shields.io/badge/PowerShell-5391FE?style=flat-square&logo=powershell&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![Bash](https://img.shields.io/badge/Bash-4EAA25?style=flat-square&logo=gnubash&logoColor=white)
+![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
+![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white)
+![Pester](https://img.shields.io/badge/Pester-5391FE?style=flat-square)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
+![Terraform](https://img.shields.io/badge/Terraform-7B42BC?style=flat-square&logo=terraform&logoColor=white)
+
+**Security (labs & study)**
+
+![Splunk](https://img.shields.io/badge/Splunk-000000?style=flat-square&logo=splunk&logoColor=white)
+![Microsoft Sentinel](https://img.shields.io/badge/Sentinel_/_KQL-0078D4?style=flat-square&logo=microsoft&logoColor=white)
+![Sigma](https://img.shields.io/badge/Sigma_rules-1F2937?style=flat-square)
+![Wireshark](https://img.shields.io/badge/Wireshark-1679A7?style=flat-square&logo=wireshark&logoColor=white)
+![MITRE ATT&CK](https://img.shields.io/badge/MITRE_ATT&CK-B91C1C?style=flat-square)
+![TryHackMe](https://img.shields.io/badge/TryHackMe-SOC_L1-212C42?style=flat-square&logo=tryhackme&logoColor=white)
+![AWS](https://img.shields.io/badge/AWS_security-232F3E?style=flat-square&logo=amazonwebservices&logoColor=white)
+
+*Labs & study are clearly separated from production experience in every repository.*
 
 ---
 
-## Current focus
+## Currently
 
-Building demonstrable capability across:
+- Completing the **TryHackMe SOC Level 1** path (phishing, network traffic, Windows and Linux monitoring, SIEM triage).
+- Building out a **Jira Service Management** lab: request types, SLAs, queues, automation, Assets (CMDB), change with CAB approval.
+- Next certifications: **SC-200**, **MD-102**, **Jamf 100**.
 
-- **Jira administration and project management** — about 50 hours of hands-on Jira courses in progress (*Project Management with Jira Cloud: Improve Your Process to Effectively Manage and Deliver Work*; *Jira Core Concepts and Advanced Features* by Pearson; *Learning Jira (Cloud Edition)*), each topic applied in my [JSM lab](https://github.com/marcuspaula-seceng/it-infrastructure-operations-portfolio/blob/main/projects/07-jira-service-management-lab/learning-path.md).
-- Windows detection engineering and incident-response methodology.
-- IAM lifecycle and access-governance automation.
-- Endpoint and infrastructure security.
-- PowerShell automation with testing and safe failure behaviour.
-- Security operations grounded in real IT operational discipline.
+---
+
+<div align="center">
+
+**Hiring for IT operations, infrastructure or SOC roles in Ireland?** Let's talk → [LinkedIn](https://www.linkedin.com/in/marcuspaula/)
+
+</div>

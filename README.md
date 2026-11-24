@@ -71,6 +71,12 @@ Employer names identify employment history only. No internal data, screenshots, 
 
 Every repository says what is **professional work**, a **hands-on lab** or **study**, and what it does *not* prove.
 
+### Hands-on mentor notes
+
+| Repository | What it shows |
+|---|---|
+| [**automation-ai-labs**](https://github.com/marcuspaula-seceng/automation-ai-labs) | 53 real IT operations, security and AI automation problems, each with before → after and step-by-step teaching notes |
+
 ### IT operations & identity
 
 | Repository | What it shows |

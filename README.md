@@ -19,7 +19,7 @@
 
 ## At a glance (30-second read)
 
-| | |
+| Area | Summary |
 |---|---|
 | **Current level** | IT Operations Engineer, L2/L3 escalation point (TikTok Technology Ireland, 2022–2026) |
 | **Core strengths** | Identity & access (Entra ID, AD, M365) · Windows & macOS endpoint lifecycle · Jira service desk · ITAM · PowerShell automation |
@@ -32,33 +32,23 @@
 
 ## Career journey
 
-```mermaid
-timeline
-    title From frontline support to security operations
-    2012 - 2020 : IT Infrastructure Engineer (freelance) - Academic Bridge, Dublin
-                : Endpoints, Microsoft 365, networking, user accounts
-    2017 - 2018 : Enterprise Development Programme - TU Dublin
-    2018 - 2019 : IT Support Engineer (contract) - Ergo, Dublin
-    2019 - 2021 : Security Officer - Provincial (TikTok and Facebook sites)
-                : Access control, CCTV, incident reporting, GDPR exposure
-    2020 - 2021 : Cyber Security Consultant (freelance) - NNK Real Estate IM
-                : Risk advisory, GRC, incident-response support
-    2022 - 2023 : IT Operations - TikTok EMEA via Hylas Technology
-                : Imaging servers EMEA & China, 400-device site rollout, asset audit
-    2023 - 2026 : IT Operations Engineer - TikTok Technology Ireland
-                : L2/L3 escalation, Entra ID & M365 lifecycle, Mac & Windows fleet, Jira service desk
-    2026 : Security operations track
-         : SOC Level 1 labs, detection engineering, DFIR, JSM lab
-```
+| Years | Role | Organisation | What it added |
+|---|---|---|---|
+| **2023 – 2026** | **IT Operations Engineer** | TikTok Technology Ireland, Dublin | L2/L3 escalation, Entra ID & M365 lifecycle, Mac & Windows fleet, Jira service desk |
+| **2022 – 2023** | IT Operations (contract) | TikTok EMEA via Hylas Technology | Imaging servers for EMEA & China, 400-device site rollout, asset audit across 3 sites |
+| **2020 – 2021** | Cyber Security Consultant (freelance) | NNK Real Estate Investment Management | Risk advisory, GRC, GDPR, incident-response support |
+| **2019 – 2021** | Security Officer | Provincial (TikTok and Facebook sites) | Access control, CCTV, incident reporting, security culture |
+| **2018 – 2019** | IT Support Engineer (contract) | Ergo, Dublin | Enterprise end-user support |
+| **2012 – 2020** | IT Infrastructure Engineer (freelance) | Academic Bridge, Dublin | Endpoints, Microsoft 365, networking, user accounts |
+| **2026 →** | Security operations track | Independent labs | TryHackMe SOC Level 1, detection engineering, DFIR, Jira Service Management lab |
+
+**Education:** Postgraduate study in Cyber Security, National College of Ireland (programme on hold) · Enterprise Development Programme, TU Dublin (2017 – 2018)
 
 **How the skills built on each other**
 
 ```mermaid
 flowchart LR
-    A["Frontline support<br/>users · endpoints · M365"] --> B["Infrastructure<br/>imaging · servers · network"]
-    B --> C["Operations ownership<br/>L2/L3 · ITAM · runbooks"]
-    C --> D["Identity & endpoint security<br/>JML · least privilege · encryption"]
-    D --> E["Security operations<br/>triage · detection · DFIR"]
+    A["Support"] --> B["Infrastructure"] --> C["Operations<br/>ownership"] --> D["Identity &<br/>endpoint security"] --> E["Security<br/>operations"]
 ```
 
 ---

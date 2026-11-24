@@ -7,6 +7,8 @@
 **14 years in IT (since 2012) · 4 years in TikTok's EMEA IT team, Dublin · Identity, endpoints and service management · Building a SOC / blue-team skill set in public**
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-marcuspaula-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/marcuspaula/)
+[![TryHackMe](https://img.shields.io/badge/TryHackMe-marcus.gestor-212C42?style=for-the-badge&logo=tryhackme&logoColor=white)](https://tryhackme.com/p/marcus.gestor)
+[![Hack The Box](https://img.shields.io/badge/Hack_The_Box-marcusovercome-9FEF00?style=for-the-badge&logo=hackthebox&logoColor=black)](https://profile.hackthebox.com/profile/019c7cf0-24c7-7114-9f19-11db2eb88906)
 [![Location](https://img.shields.io/badge/Dublin-Ireland-169B62?style=for-the-badge)](#)
 [![Right to work](https://img.shields.io/badge/EU_citizen-full_right_to_work-2F3B52?style=for-the-badge)](#)
 [![Open to](https://img.shields.io/badge/Open_to-IT_Ops_·_Infra_·_SOC-success?style=for-the-badge)](#)
